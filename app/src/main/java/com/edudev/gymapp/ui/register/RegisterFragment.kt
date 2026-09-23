@@ -66,7 +66,7 @@ class RegisterFragment : Fragment() {
                     binding.tvError.text = state.error
 
                     if (state.registered) {
-                        findNavController().navigate(RegisterFragmentDirections.actionRegisterToHome())
+                        findNavController().navigate(RegisterFragmentDirections.actionRegisterToSetupIntro())
                     }
                 }
             }

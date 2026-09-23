@@ -7,4 +7,5 @@
     <color name="auth_card_purple">#A79CF0</color>
     <color name="auth_label_dark">#2B2640</color>
     <color name="text_secondary_gray">#9E9E9E</color>
+    <color name="ruler_number_dim">#6E63A8</color>
 </resources>

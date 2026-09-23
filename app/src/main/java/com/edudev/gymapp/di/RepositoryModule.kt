@@ -2,6 +2,8 @@ package com.edudev.gymapp.di
 
 import com.edudev.gymapp.data.repository.AuthRepository
 import com.edudev.gymapp.data.repository.AuthRepositoryImpl
+import com.edudev.gymapp.data.repository.ProfileRepository
+import com.edudev.gymapp.data.repository.ProfileRepositoryImpl
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
@@ -15,4 +17,8 @@ abstract class RepositoryModule {
     @Binds
     @Singleton
     abstract fun bindAuthRepository(impl: AuthRepositoryImpl): AuthRepository
+
+    @Binds
+    @Singleton
+    abstract fun bindProfileRepository(impl: ProfileRepositoryImpl): ProfileRepository
 }
