@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Theme.GymApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">#1E88E5</item>
-        <item name="colorPrimaryVariant">#1565C0</item>
-        <item name="colorOnPrimary">#FFFFFF</item>
-        <item name="colorSecondary">#26A69A</item>
-        <item name="colorSecondaryVariant">#00897B</item>
-        <item name="colorOnSecondary">#000000</item>
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="textAppearanceHeadline1">@style/TextAppearance.GymApp.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.GymApp.Headline2</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.GymApp.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.GymApp.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.GymApp.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.GymApp.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.GymApp.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.GymApp.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.GymApp.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.GymApp.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.GymApp.Overline</item>
     </style>
 </resources>

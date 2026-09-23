@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="background_dark">#1C1C1E</color>
+    <color name="brand_purple">#7B68EE</color>
+    <color name="brand_lime">#E2F163</color>
+    <color name="white">#FFFFFF</color>
+    <color name="auth_card_purple">#A79CF0</color>
+    <color name="auth_label_dark">#2B2640</color>
+    <color name="text_secondary_gray">#9E9E9E</color>
 </resources>

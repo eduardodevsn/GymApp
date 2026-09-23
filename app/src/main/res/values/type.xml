@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Títulos / subtítulos — Poppins -->
+    <style name="TextAppearance.GymApp.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight" tools:targetApi="28">700</item>
+    </style>
+
+    <style name="TextAppearance.GymApp.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight" tools:targetApi="28">700</item>
+    </style>
+
+    <style name="TextAppearance.GymApp.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight" tools:targetApi="28">600</item>
+    </style>
+
+    <style name="TextAppearance.GymApp.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight" tools:targetApi="28">600</item>
+    </style>
+
+    <style name="TextAppearance.GymApp.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight" tools:targetApi="28">500</item>
+    </style>
+
+    <style name="TextAppearance.GymApp.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight" tools:targetApi="28">500</item>
+    </style>
+
+    <!-- Body / botones / caption — League Spartan -->
+    <style name="TextAppearance.GymApp.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/league_spartan</item>
+        <item name="android:fontFamily">@font/league_spartan</item>
+    </style>
+
+    <style name="TextAppearance.GymApp.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/league_spartan</item>
+        <item name="android:fontFamily">@font/league_spartan</item>
+    </style>
+
+    <style name="TextAppearance.GymApp.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">@font/league_spartan</item>
+        <item name="android:fontFamily">@font/league_spartan</item>
+        <item name="android:textFontWeight" tools:targetApi="28">600</item>
+    </style>
+
+    <style name="TextAppearance.GymApp.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/league_spartan</item>
+        <item name="android:fontFamily">@font/league_spartan</item>
+    </style>
+
+    <style name="TextAppearance.GymApp.Overline" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="fontFamily">@font/league_spartan</item>
+        <item name="android:fontFamily">@font/league_spartan</item>
+    </style>
+
+</resources>

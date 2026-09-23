@@ -1,3 +1,48 @@
 <resources>
     <string name="app_name">GymApp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="onboarding_welcome_title">Welcome to</string>
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_get_started">Get Started</string>
+    <string name="onboarding_page_1_title">Start Your Journey Towards A More Active Lifestyle</string>
+    <string name="onboarding_page_2_title">Find Nutrition Tips That Fit Your Lifestyle</string>
+    <string name="onboarding_page_3_title">A Community For You, Challenge Yourself</string>
+
+    <string name="register_title">Crear cuenta</string>
+    <string name="register_full_name">Nombre completo</string>
+    <string name="register_email">Email</string>
+    <string name="register_password">Contraseña</string>
+    <string name="register_cta">Registrarme</string>
+    <string name="register_has_account">¿Ya tenés cuenta? Iniciar sesión</string>
+    <string name="login_no_account">¿No tenés cuenta? Registrate</string>
+
+    <string name="back">Volver</string>
+    <string name="login_title">Log In</string>
+    <string name="login_welcome">Welcome</string>
+    <string name="login_welcome_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="login_username_label">Username or email</string>
+    <string name="login_password_label">Password</string>
+    <string name="login_forgot_password">Forgot Password?</string>
+    <string name="login_cta">Log In</string>
+    <string name="login_or_sign_up_with">or sign up with</string>
+    <string name="register_title_topbar">Create Account</string>
+    <string name="register_lets_start">Let\'s Start!</string>
+    <string name="register_full_name_label">Full name</string>
+    <string name="register_email_label">Email or Mobile Number</string>
+    <string name="register_password_label">Password</string>
+    <string name="register_confirm_password_label">Confirm Password</string>
+    <string name="register_terms">By continuing, you agree to Terms of Use and Privacy Policy.</string>
+    <string name="forgot_password_title">Forgotten Password</string>
+    <string name="forgot_password_heading">Forgot Password?</string>
+    <string name="forgot_password_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="forgot_password_email_label">Enter your email address</string>
+    <string name="continue_btn">Continue</string>
+    <string name="set_password_title">Set Password</string>
+    <string name="set_password_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="reset_password_cta">Reset Password</string>
+    <string name="set_fingerprint_title">Set Your Fingerprint</string>
+    <string name="set_fingerprint_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</string>
+    <string name="skip_btn">Skip</string>
+    <string name="passwords_dont_match">Las contraseñas no coinciden</string>
 </resources>

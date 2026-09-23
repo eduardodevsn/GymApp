@@ -20,7 +20,7 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-        buildConfigField("String", "BASE_URL", "\"https://api.example.com/\"")
+        buildConfigField("String", "BASE_URL", "\"https://api.samlin.dev/gym/\"")
     }
 
     buildTypes {
@@ -57,6 +57,7 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.core.ktx)
     implementation(libs.material)
+    implementation(libs.androidx.viewpager2)
 
     // Lifecycle / Navigation (Fragments)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
