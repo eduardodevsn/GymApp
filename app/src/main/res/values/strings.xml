@@ -45,4 +45,35 @@
     <string name="set_fingerprint_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</string>
     <string name="skip_btn">Skip</string>
     <string name="passwords_dont_match">Las contraseñas no coinciden</string>
+
+    <string name="setup_next">Next</string>
+    <string name="setup_continue">Continue</string>
+    <string name="setup_back">Back</string>
+    <string name="setup_intro_title">Consistency Is The Key To Progress. Don\'t Give Up!</string>
+    <string name="setup_intro_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="setup_gender_title">What\'s Your Gender</string>
+    <string name="setup_male">Male</string>
+    <string name="setup_female">Female</string>
+    <string name="setup_age_title">How Old Are You?</string>
+    <string name="setup_weight_title">What Is Your Weight?</string>
+    <string name="setup_height_title">What Is Your Height?</string>
+    <string name="setup_goal_title">What Is Your Goal?</string>
+    <string name="setup_activity_title">Physical Activity Level</string>
+    <string name="setup_generic_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="setup_kg">KG</string>
+    <string name="setup_lb">LB</string>
+    <string name="setup_beginner">Beginner</string>
+    <string name="setup_intermediate">Intermediate</string>
+    <string name="setup_advance">Advance</string>
+    <string name="setup_fill_profile_title">Fill Your Profile</string>
+    <string name="setup_full_name">Full name</string>
+    <string name="setup_nickname">Nickname</string>
+    <string name="setup_email">Email</string>
+    <string name="setup_mobile">Mobile Number</string>
+    <string name="setup_start">Start</string>
+    <string name="goal_lose_weight">Lose Weight</string>
+    <string name="goal_gain_weight">Gain Weight</string>
+    <string name="goal_muscle_gain">Muscle Mass Gain</string>
+    <string name="goal_shape_body">Shape Body</string>
+    <string name="goal_others">Others</string>
 </resources>

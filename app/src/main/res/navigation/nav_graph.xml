@@ -41,6 +41,85 @@
         <action
             android:id="@+id/action_login_to_forgot_password"
             app:destination="@id/forgotPasswordFragment" />
+        <action
+            android:id="@+id/action_register_to_setup_intro"
+            app:destination="@id/setupIntroFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/setupIntroFragment"
+        android:name="com.edudev.gymapp.ui.setup.SetupIntroFragment"
+        android:label="SetupIntro">
+        <action
+            android:id="@+id/action_setup_intro_to_gender"
+            app:destination="@id/setupGenderFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/setupGenderFragment"
+        android:name="com.edudev.gymapp.ui.setup.SetupGenderFragment"
+        android:label="SetupGender">
+        <action
+            android:id="@+id/action_gender_to_age"
+            app:destination="@id/setupAgeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/setupAgeFragment"
+        android:name="com.edudev.gymapp.ui.setup.SetupAgeFragment"
+        android:label="SetupAge">
+        <action
+            android:id="@+id/action_age_to_weight"
+            app:destination="@id/setupWeightFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/setupWeightFragment"
+        android:name="com.edudev.gymapp.ui.setup.SetupWeightFragment"
+        android:label="SetupWeight">
+        <action
+            android:id="@+id/action_weight_to_height"
+            app:destination="@id/setupHeightFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/setupHeightFragment"
+        android:name="com.edudev.gymapp.ui.setup.SetupHeightFragment"
+        android:label="SetupHeight">
+        <action
+            android:id="@+id/action_height_to_goal"
+            app:destination="@id/setupGoalFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/setupGoalFragment"
+        android:name="com.edudev.gymapp.ui.setup.SetupGoalFragment"
+        android:label="SetupGoal">
+        <action
+            android:id="@+id/action_goal_to_activity_level"
+            app:destination="@id/setupActivityLevelFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/setupActivityLevelFragment"
+        android:name="com.edudev.gymapp.ui.setup.SetupActivityLevelFragment"
+        android:label="SetupActivityLevel">
+        <action
+            android:id="@+id/action_activity_level_to_fill_profile"
+            app:destination="@id/setupFillProfileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/setupFillProfileFragment"
+        android:name="com.edudev.gymapp.ui.setup.SetupFillProfileFragment"
+        android:label="SetupFillProfile">
+        <action
+            android:id="@+id/action_fill_profile_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
     </fragment>
 
     <fragment
@@ -50,6 +129,11 @@
         <action
             android:id="@+id/action_register_to_home"
             app:destination="@id/homeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_register_to_setup_intro"
+            app:destination="@id/setupIntroFragment"
             app:popUpTo="@id/loginFragment"
             app:popUpToInclusive="true" />
     </fragment>

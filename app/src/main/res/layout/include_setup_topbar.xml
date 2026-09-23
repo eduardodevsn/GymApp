@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:contentDescription="@string/setup_back"
+        android:src="@drawable/ic_chevron_left" />
+
+    <TextView
+        android:id="@+id/tvBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="@string/setup_back"
+        android:textColor="@color/brand_lime"
+        android:textSize="14sp" />
+
+</LinearLayout>
